@@ -26,3 +26,9 @@ body {
 .btn-merah {
   background-color: red;
 }
+
+.lamp-container-box{
+  margin-top: 50px;
+  border-style: dashed;
+  background-color: cadetblue;
+}
