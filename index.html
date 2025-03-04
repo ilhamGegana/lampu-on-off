@@ -10,12 +10,13 @@
 
 <body>
   <h2>Kontrol Lampu</h2>
-  <div class="lamp-container">
-    <img id="lamp" src="img/lampu-off.gif" alt="Lampu Mati" class="lamp">
+  <div class="lamp-container-box">
+    <div class="lamp-container">
+      <img id="lamp" src="img/lampu-off.gif" alt="Lampu Mati" class="lamp">
+    </div>
+    <button class="btn btn-hijau" onclick="turnOn()">Hidupkan</button>
+    <button class="btn btn-merah" onclick="turnOff()">Matikan</button>
   </div>
-  <button class="btn btn-hijau" onclick="turnOn()">Hidupkan</button>
-  <button class="btn btn-merah" onclick="turnOff()">Matikan</button>
-
   <script>
     function turnOn() {
       document.getElementById("lamp").src = "img/lampu-on.gif";
